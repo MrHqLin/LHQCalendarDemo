@@ -17,3 +17,5 @@ _calendarView = [[WTCalendarView alloc]initWithFrame:CGRectMake(0, 0, kScreenWid
         NSDate *date4 = [NSDate stringToDate:@"2018-11-21" format:YMD];
         _calendarView.pastDate = date4;
 ```
+
+![图片](LHQCalendarDemo/calendar.png)
