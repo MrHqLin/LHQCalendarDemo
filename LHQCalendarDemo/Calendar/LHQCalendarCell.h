@@ -16,7 +16,7 @@
 
 @end
 
-@protocol WTDateCellDelegate <NSObject>
+@protocol LHQDateCellDelegate <NSObject>
 
 - (void)clickDateWith:(LHQDateCell *)cell indexpath:(NSIndexPath *)indexpath;
 
@@ -24,7 +24,7 @@
 
 @interface LHQDateCell : UICollectionViewCell
 
-@property (nonatomic, weak) id<WTDateCellDelegate> cellDelegate;
+@property (nonatomic, weak) id<LHQDateCellDelegate> cellDelegate;
 @property (nonatomic, strong) UIButton *dateButton;
 @property (nonatomic, strong) NSIndexPath *indexpath;
 
